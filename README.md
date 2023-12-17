@@ -1,14 +1,16 @@
 # ChatPaperFree GeminiPro
 
-实际上，这个项目是在ChatPaper的基础上进行的更新，采用了最近由Google开源的Gemini Pro大模型。这样一来，我们可以免费使用ChatPaper，并且未来我还计划加入对论文图片的读取以提取摘要（测试结果是OK的）。
+实际上，这个项目是在ChatPaper的基础上进行的更新，采用了最近由Google开源的Gemini Pro大模型。这样一来，我们可以免费使用ChatPaper，并且未来我还计划加入对论文图片的读取以提取摘要（测试结果是OK的），大家可以关注一下，https://github.com/Kedreamix/ChatPaperFree。
 
 目前,我们能够对用户输入的论文进行自动总结。未来,我还计划加入对论文图片/表格/公式的识别 extraction,从而生成更全面而易读的总结。如果在对话中chatbot能提供更优质的服务,我还会尝试进行更深层次的模型fine-tuning。我会在后续尝试进行更新，大家也可以提出自己的意见，也欢迎提PR。这是ChatPaper的[GitHub链接](https://github.com/kaixindelele/ChatPaper.git)，多多关注。
 
 另外,为了跟上快速发展的人工智能领域和庞大的arxiv论文,我们从arXiv爬取了大量论文,并制作了网站[进步屋](https://ipaper.today/)使研究人员能够便捷获取当前热点。通过Gemini Pro对论文进行自动归纳,我们可以用极少的文本来展示论文要点,帮助用户快速评估哪篇值得深入研读。
 
-在这个不断变化的时代,ChatPaperFree GeminiPro通过利用强大技术,有效提升我们学习效率。同时,我们也欢迎你提供关键词,共同完善这个平台,让每个人都能在技术演进中取得新的进步。（可在https://github.com/wmpscc/ipaper.today提出关键词，欢迎）
+在这个不断变化的时代,ChatPaperFree GeminiPro通过利用强大技术,有效提升我们学习效率。同时,我们也欢迎你提供关键词,共同完善这个平台,让每个人都能在技术演进中取得新的进步。（可在[https://github.com/wmpscc/ipaper.today](https://github.com/wmpscc/ipaper.today) 提出关键词，欢迎）
 
 希望未来,我们可以搭建更友好的人机合作模式。
+
+我已经部署到了HuggingFace上了，大家都可以尝试用一下，看看怎么样 [https://huggingface.co/spaces/Kedreamix/ChatPaperFree](https://huggingface.co/spaces/Kedreamix/ChatPaperFree)
 
 ## Usage
 
@@ -29,7 +31,7 @@ Google的Gemini Pro的API key是免费的，所以大家都是可以申请的，
 
 实际上，这个操作与ChatPaper的爬取论文类似，我们通过爬取最新arxiv论文，根据设定的关键词，每天对论文进行爬取，以最快的速度跟踪最新的文章。实验室已经搭建了一个网站，大家可以多多支持，提出自己的关键词，我们会不定时进行更新，让你每天都能看到最新的文章。
 
-这是进步屋的网站：[进步屋](https://ipaper.today/) https://ipaper.today/ ，大家如果有什么需要学习的内容，可以给出关键词，在[GitHub](https://github.com/wmpscc/ipaper.today)提issue。
+这是进步屋的网站：[进步屋](https://ipaper.today/) https://ipaper.today/ ，大家如果有什么需要学习的内容，可以给出关键词，在[GitHub](https://github.com/wmpscc/ipaper.today)提issue。
 
 后续，我还计划加入自动生成摘要和分析的功能，包括尝试让数字人播报等等，敬请期待。
 
