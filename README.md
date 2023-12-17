@@ -1,6 +1,6 @@
 # ChatPaperFree GeminiPro
 
-实际上，这个项目是在ChatPaper的基础上进行的更新，采用了最近由Google开源的Gemini Pro大模型。这样一来，我们可以免费使用ChatPaper，并且未来我还计划加入对论文图片的读取以提取摘要（测试结果是OK的），大家可以关注一下，https://github.com/Kedreamix/ChatPaperFree。
+实际上，这个项目是在ChatPaper的基础上进行的更新，采用了最近由Google开源的Gemini Pro大模型。这样一来，我们可以免费使用ChatPaper，并且未来我还计划加入对论文图片的读取以提取摘要（测试结果是OK的），大家可以关注一下，[https://github.com/Kedreamix/ChatPaperFree](https://github.com/Kedreamix/ChatPaperFree)。
 
 目前,我们能够对用户输入的论文进行自动总结。未来,我还计划加入对论文图片/表格/公式的识别 extraction,从而生成更全面而易读的总结。如果在对话中chatbot能提供更优质的服务,我还会尝试进行更深层次的模型fine-tuning。我会在后续尝试进行更新，大家也可以提出自己的意见，也欢迎提PR。这是ChatPaper的[GitHub链接](https://github.com/kaixindelele/ChatPaper.git)，多多关注。
 
@@ -19,7 +19,7 @@ pip install -r requriements.txt
 python app.py
 ```
 
-成功后，进入http://127.0.0.1:7860即可，接着就可以输入自己的API key。
+成功后，进入http://127.0.0.1:7860 即可，接着就可以输入自己的API key。
 
 Google的Gemini Pro的API key是免费的，所以大家都是可以申请的，具体申请可以在[https://makersuite.google.com/](https://makersuite.google.com/)进行获取，每个人都可以获取多个，如果大家有自己的一些想法，也可以看谷歌的API使用文档[https://ai.google.dev/tutorials/python_quickstart](https://ai.google.dev/tutorials/python_quickstart)。
 
