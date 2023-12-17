@@ -12,10 +12,18 @@
 
 ## Usage
 
-```
-bashCopy codepip install -r requriements.txt
+```bash
+pip install -r requriements.txt
 python app.py
 ```
+
+成功后，进入http://127.0.0.1:7860即可，接着就可以输入自己的API key。
+
+Google的Gemini Pro的API key是免费的，所以大家都是可以申请的，具体申请可以在[https://makersuite.google.com/](https://makersuite.google.com/)进行获取，每个人都可以获取多个，如果大家有自己的一些想法，也可以看谷歌的API使用文档[https://ai.google.dev/tutorials/python_quickstart](https://ai.google.dev/tutorials/python_quickstart)。
+
+![](apikey.png)
+
+
 
 ## 获取最新文章（进步屋）
 
